@@ -1,0 +1,212 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background: #007BFF;
+    color: white;
+    background-image: url('estrategia_e_planos.png'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
+
+.header .container {
+    position: relative;
+    z-index: 1;
+}
+
+.header .header-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Ajuste conforme necessário */
+}
+
+.header h1, .header p {
+    color: white;
+}
+
+.header .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+.header .btn:hover {
+    background: #218838;
+}
+
+.header .btn i {
+    margin-right: 10px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.card + .card {
+    margin-top: 30px;
+}
+
+.section-separator {
+    background: #e0e0e0;
+    height: 5px;
+    border: none;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0 0 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.benefits {
+    text-align: center;
+}
+
+.benefit {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.benefit img {
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.benefit h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonial-card {
+    background: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.testimonials .testimonial-card p {
+    font-style: italic;
+}
+
+.cta {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta .btn:hover {
+    background-color: #004080;
+}
+
+.mentor {
+    text-align: center;
+}
+
+.mentor-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.mentor-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social-link {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer .social-link:hover {
+    color: #007BFF;
+}
+
+.footer .btn-whatsapp {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.footer .btn-whatsapp:hover {
+    background-color: #128C7E;
+}
